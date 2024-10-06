@@ -440,8 +440,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 593297785}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &411788052
@@ -457,7 +456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveValue: {x: 0, y: 0}
-  speed: 5
+  speed: 7
 --- !u!1 &544413475
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,11 +649,11 @@ Transform:
   m_GameObject: {fileID: 593297782}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 9.5, z: -10}
+  m_LocalPosition: {x: 0, y: 12, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 411788051}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &593297786
 MonoBehaviour:
@@ -668,7 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1b93a2835c49d846847b9b3b26d49ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 411788045}
 --- !u!1 &1008989201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,3 +1164,4 @@ SceneRoots:
   - {fileID: 1008989202}
   - {fileID: 1400183063}
   - {fileID: 411788051}
+  - {fileID: 593297785}
